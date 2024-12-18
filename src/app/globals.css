@@ -24,7 +24,7 @@ body {
   @apply transition-all duration-200;
 }
 .swiper-slide-active .active-slide {
-  @apply !bg-yellow-400;
+  @apply bg-yellow-400;
 }
 .swiper-slide-active .active-slide .autoplay {
   @apply inline-block;
