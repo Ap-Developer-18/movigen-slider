@@ -39,19 +39,13 @@ const Slider = () => {
                                         className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 autoplay hidden max-sm:w-10 max-sm:h-10 size-16"
                                     />
                                     <Image
-                                        src={obj.imageUrl}
+                                        src={obj.imagePath}
                                         alt={obj.name}
                                         width={272}
                                         height={344}
                                         className="object-cover sm:h-[344px] h-[300px] w-full"
                                     />
                                 </div>
-                                <h3 className="sm:mt-6 mt-4 text-primary sm:text-xl text-base sm:mb-3 mb-2 font-inter font-medium">
-                                    {obj.name}
-                                </h3>
-                                <p className="text-secondary sm:text-lg text-sm font-inter">
-                                    {obj.type}
-                                </p>
                             </div>
                         </SwiperSlide>
                     ))}
